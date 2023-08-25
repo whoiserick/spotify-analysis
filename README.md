@@ -16,8 +16,9 @@ The script leverages the Spotipy library to authenticate and interact with the S
 + pip install spotipy
 + pip install tqdm
 
-# main.py
+### generate.py
 
 This script utilizes the Spotify API to create new playlists based on the genres present in an existing playlist. It prompts you to select a playlist and then proceeds to categorize the tracks by their genres. Subsequently, new playlists are generated for each genre containing the respective tracks. The code uses the Spotipy library for Spotify API interaction and requires user authentication via client credentials. The script facilitates efficient playlist management by automating genre-based track separation.
 
-soon.
++ https://developer.spotify.com/dashboard/
++ You can get the "client_id" and "secret_client_id" here. Just make login with your account
